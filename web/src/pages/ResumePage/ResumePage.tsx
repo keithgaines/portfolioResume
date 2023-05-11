@@ -6,47 +6,53 @@ import ResumeExperience from 'src/components/ResumeExperience/ResumeExperience'
 import '../../resume.css'
 
 const experience = [
-  {
-    title: 'IT Systems Administrator',
-    company: 'Celero Commerce',
-    date: 'August 2022 - Present',
-    highlights: [
-      'Contributed to infrastructure team wiki documentation. Documentation was written in markdown and version control was managed by git.',
-      'Automated Office 365 management by writing scripts in Powershell and Microsoft Graph.',
-      'Maintained the codebase of the scripts and participated in code reviews/pull requests to merge changes into the main branch',
-    ],
-  },
-  {
-    title: 'Help Desk Technician',
-    company: 'National Seating and Mobility',
-    date: 'June 2022 - Aug 2022',
-    highlights: [
-      'Respond to and resolve incoming technical support requests from internal or external customers in a timely and professional manner.',
-      'Troubleshoot hardware and software issues on desktops, laptops, mobile devices, and other endpoints.',
-      'Document and track support requests and resolutions using a ticketing system to ensure accuracy and completeness of information',
-    ],
-  },
-  {
-    title: 'Tier 2 Support Agent',
-    company: 'Louisiana Pacific',
-    date: 'January 2022 - June 2022',
-    highlights: [
-      "Improved Tier 1 support team's performance by streamlining standard operating procedures (SOPs), resulting in higher First Call Resolution metric and better adherence to Service Level Agreements (SLAs).",
-      'Acted as the escalation point for the Tier 1 team, providing guidance and support on complex technical issues.',
-      "Created and updated documentation in the company's wiki, ensuring accuracy and completeness of information for use by other team members and stakeholders",
-    ],
-  },
-  {
-    title: 'Cloud System Administrator',
-    company: 'AHEAD',
-    date: 'April 2021 - Jan 2022',
-    highlights: [
-      "Ensure compliance with security policies and standards by managing identity and access within Azure AD, and documenting access control procedures and changes as necessary.",
-      "Implement and adhere to IT Service Management (ITSM) principles to manage Windows and Linux (Ubuntu) VMs and workflows, including incident, change, and problem management, to minimize downtime and enhance service quality.",
-      "Keep Linux/Windows servers in the cloud (Azure) up-to-date and secure by regularly patching and updating them, and testing patches and updates in a staging environment before applying them in production.",
-    ],
-  },
-];
+      {
+        "title": "IT Support Administrator",
+        "company": "Celero Commerce",
+        "date": "Aug 2022 - Present",
+        "highlights": [
+          "Developed PowerShell scripts to streamline employee onboarding/offboarding processes in Azure, resulting in significant time savings and reduced errors.",
+          "Automated auditing of Azure user permissions and properties using PowerShell, improving efficiency and accuracy.",
+          "Created comprehensive documentation for PowerShell scripts in our team wiki repository, enabling widespread implementation and knowledge sharing."
+        ]
+      },
+      {
+        "title": "Help Desk Support Technician",
+        "company": "National Seating & Mobility",
+        "date": "Jun 2022 - Aug 2022",
+        "highlights": [
+          "Troubleshot hardware and software issues across various devices, including desktops, laptops, and mobile devices, utilizing PowerShell and Bash scripting.",
+          "Responded to and resolved technical support requests promptly, ensuring minimal downtime for end-users.",
+          "Documented and tracked support requests and resolutions using a ticketing system, maintaining accurate records for future reference."
+        ]
+      },
+      {
+        "title": "Tier 2 Support Agent",
+        "company": "Louisiana-Pacific Corporation",
+        "date": "Jan 2022 - Jun 2022",
+        "highlights": [
+          "Streamlined Tier 1 support team procedures by incorporating PowerShell scripting, automating repetitive tasks and enhancing efficiency.",
+          "Served as an escalation point for the Tier 1 team, providing expert guidance and support on complex technical issues for timely problem resolution.",
+          "Led a hardware lifecycle upgrade project, utilizing PowerShell and Bash scripts for seamless migrations and minimal disruption to business operations.",
+          "Created and updated comprehensive documentation in the company's wiki, empowering team members with troubleshooting resources and system maintenance information.",
+          "Managed and maintained PC and mobile endpoints in Azure, leveraging PowerShell for configuration management and security enhancements."
+        ]
+      },
+
+      {
+        "title": "Cloud Administrator",
+        "company": "AHEAD",
+        "date": "April 2021 - Jan 2022",
+        "highlights": [
+          "Implemented Git version control system to manage and track changes in infrastructure-as-code (IaC) templates and configuration files, enabling efficient collaboration and easy rollback of changes.",
+          "Served as an escalation point for the Tier 1 team, providing expert guidance and support on complex technical issues for timely problem resolution.",
+          "Led a hardware lifecycle upgrade project, utilizing PowerShell and Bash scripts for seamless migrations and minimal disruption to business operations.",
+          "Created and updated comprehensive documentation in the company's wiki, empowering team members with troubleshooting resources and system maintenance information.",
+          "Managed and maintained PC and mobile endpoints in Azure, leveraging PowerShell for configuration management and security enhancements."
+        ]
+      }
+    ]
+    
 
 const ResumePage = () => {
   return (
@@ -55,7 +61,7 @@ const ResumePage = () => {
       <div className='content'>
       <ResumeHeader
         name={'Keith Gaines'}
-        title={'Systems Engineer'}
+        title={'Full Stack Developer'}
       />
       <br />
       <br />
