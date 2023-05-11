@@ -1,0 +1,42 @@
+.content {
+    padding: 5%;
+    margin-top: 5px;
+}
+
+.resume-experience {
+    margin-bottom: 20px;
+  }
+  
+  .section-heading {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .job {
+    margin-bottom: 20px;
+  }
+  
+  .job-title {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .job-company {
+    font-style: italic;
+    margin-bottom: 5px;
+  }
+  
+  .job-date {
+    font-size: 14px;
+    margin-bottom: 10px;
+  }
+  
+  .job-highlights {
+    list-style-type: disc;
+    margin-left: 20px;
+  }
+  
+  .job-highlight {
+    margin-bottom: 5px;
+  }
+  
