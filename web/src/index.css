@@ -61,7 +61,6 @@ body {
 
 .projectstitle {
     text-align: center;
-    margin-top: 18%;
 }
 
 button {
@@ -82,7 +81,7 @@ button {
     }
 
     .projectstitle {
-        margin-top: 55%;
+        margin-top: 5%;
         align-content: center;    
     }
 
@@ -125,10 +124,6 @@ button {
     .headerimage img {
         float: right;
         height: 30%;
-    }
-
-    .projectstitle {
-        margin-top: 25%;
     }
 
     .projectscontainer {

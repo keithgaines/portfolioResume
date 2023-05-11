@@ -8,6 +8,8 @@ const Routes = () => {
     <Router>
       <Set wrap={HomeLayout}>
         <Route path="/" page={HomePage} name="home" />
+        <Route path="/portfolio" page={PortfolioPage} name="portfolio" />
+
         <Route notfound page={NotFoundPage} />
       </Set>
     </Router>

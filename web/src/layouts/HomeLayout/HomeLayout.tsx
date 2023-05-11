@@ -1,5 +1,5 @@
 import React from 'react';
-import Navbar from 'web/src/components/Navbar/Navbar.tsx'
+import Navbar from 'web/src/components/Navbar/Navbar'
 type HomeLayoutProps = {
   children?: React.ReactNode;
 };
