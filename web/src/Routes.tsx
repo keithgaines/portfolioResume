@@ -6,6 +6,7 @@ import NotFoundPage from './pages/NotFoundPage';
 const Routes = () => {
   return (
     <Router>
+      <Route path="/resume" page={ResumePage} name="resume" />
       <Set wrap={HomeLayout}>
         <Route path="/" page={HomePage} name="home" />
         <Route path="/portfolio" page={PortfolioPage} name="portfolio" />
