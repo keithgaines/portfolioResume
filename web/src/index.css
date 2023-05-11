@@ -1,0 +1,172 @@
+body {
+    background-color: #181823;
+    color: #C0EEF2;
+}
+
+.content {
+    padding: 0% 5% 0% 5%;
+}
+
+.navbar {
+    background-color: #537FE7;
+}
+
+.navbar a {
+    color: #181823;
+}
+
+/* Style the hamburger icon using span elements */
+.navbar-toggler-icon span {
+    display: block;
+    width: 20px;
+    height: 2px;
+    background-color: #181823;
+    border-radius: 2px;
+    margin-bottom: 4px;
+    margin-top: 6px;
+  }
+  
+/* Change the background color of the span elements when the hamburger menu is clicked */
+    .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon span {
+    background-color: #181823;
+}
+
+.headertext {
+    width: 100%;
+}
+
+.headerimage img {
+    width: 100vw;
+}
+
+.projectscontainer h1 {
+    text-align: center;
+}
+
+.links {
+    padding: 5%;
+}
+
+.links a {
+    margin-right: 40px;
+}
+
+.project img {
+    width: 100%;
+}
+
+.linkedinbutton a {
+    color: white;
+}
+
+.projectstitle {
+    text-align: center;
+    margin-top: 18%;
+}
+
+button {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+@media (min-width: 768px) {
+    .headertext {
+        float: left;
+        width: 60%;
+    }
+
+    .headerimage img {
+        float: right;
+        width: 40%;
+        margin-top: 75px;
+    }
+
+    .projectstitle {
+        margin-top: 55%;
+        align-content: center;    
+    }
+
+    .projectscontainer {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-auto-rows: minmax(100px, auto);
+        gap: 25px;
+        margin-top: 5%;
+    }
+
+    .projectscontainer h3 {
+        text-align: center;
+    }
+
+    .contact  {
+        text-align: center;
+    }
+
+    .form-group {
+        text-align: center;
+        align-content: center;
+        margin-left: 15%;
+        margin-right: 15%;
+    }
+}
+
+@media (min-width: 1024px) {
+    .headertext {
+        float: left;
+        width: 50%;
+        padding-left: 10%;
+        padding-top: 15%;
+    }
+
+    .headerimage {
+        padding: 8%;
+    }
+
+    .headerimage img {
+        float: right;
+        height: 30%;
+    }
+
+    .projectstitle {
+        margin-top: 25%;
+    }
+
+    .projectscontainer {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-auto-rows: minmax(100px, auto);
+        gap: 25px;
+        margin-top: 5%;
+    }
+
+    .projectscontainer h3 {
+        text-align: center;
+    }
+
+    .projectscontainer img {
+        max-height: 100%;
+    }
+
+    .contact {
+        text-align: center;
+        align-content: center;
+    }
+
+    .form-group {
+        text-align: center;
+        align-content: center;
+        margin-left: 25%;
+        margin-right: 25%;
+    }
+
+}
+
+@media (min-width: 1440px) {
+    .projectscontainer {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-auto-rows: minmax(100px, auto);
+        gap: 25px;
+        margin-top: 5%;
+    }
+}
