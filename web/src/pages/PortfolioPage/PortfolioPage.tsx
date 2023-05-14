@@ -47,8 +47,8 @@ const projects = [
   {
     title: "Photosnap Stories",
     imageSrc: "images/photosnap.png",
-    githubLink: "https://github.com/keithgaines/photosnap",
-    liveSiteLink: "https://photosnap-delta.vercel.app/"
+    githubLink: "https://github.com/keithgaines/photosnapFullStack",
+    liveSiteLink: "https://photosnapchallenge.vercel.app/"
   }
 ];
 
